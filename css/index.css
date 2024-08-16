@@ -3670,14 +3670,17 @@ h1.page-title + .tag-cloud-list {
 #nav .menus_items {
   display: inline;
 }
-#nav .menus_items .menus_item {
-  position: relative;
-  display: inline-block;
-  padding: 0 0 0 14px;
-}
+#nav .menus_items .menus_item .icat_menus_item .menus_item_child,
+#nav .menus_items .menus_item position: relative .menus_item_child,
+#nav .menus_items .menus_item display: inline-block .menus_item_child,
+#nav .menus_items .menus_item padding: 0 0 0 14px .menus_item_child,
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
 }
+#nav .menus_items .menus_item .icat_menus_item > a > i:last-child,
+#nav .menus_items .menus_item position: relative > a > i:last-child,
+#nav .menus_items .menus_item display: inline-block > a > i:last-child,
+#nav .menus_items .menus_item padding: 0 0 0 14px > a > i:last-child,
 #nav .menus_items .menus_item:hover > a > i:last-child {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -4402,13 +4405,19 @@ h1.page-title + .tag-cloud-list {
 #sidebar #sidebar-menus .menus_items {
   padding: 0 10px;
 }
+#sidebar #sidebar-menus .menus_items .menus_item {
+  margin: 10px 0;
+}
 #sidebar #sidebar-menus .menus_items .site-page {
   position: relative;
   display: block;
   padding: 3px 28px 3px 20px;
   color: var(--font-color);
   font-size: 1.15em;
-  border-radius: 6px;
+  border: var(--icat-style-border-always);
+  background: var(--icat-essay-card-bg);
+  font-size: 14px;
+  border-radius: 12px;
 }
 #sidebar #sidebar-menus .menus_items .site-page:hover {
   background: var(--text-bg-hover);
@@ -4416,6 +4425,7 @@ h1.page-title + .tag-cloud-list {
 #sidebar #sidebar-menus .menus_items .site-page i:first-child {
   width: 15%;
   text-align: left;
+  padding-left: 10px;
 }
 #sidebar #sidebar-menus .menus_items .site-page.group > i:last-child {
   position: absolute;
@@ -4441,6 +4451,44 @@ h1.page-title + .tag-cloud-list {
   margin: 0;
   padding-left: 25px;
   list-style: none;
+}
+#sidebar #sidebar-menus .icat_menus_item {
+  display: inline-block;
+  width: 50%;
+}
+#sidebar #sidebar-menus .icat_menus_item .site-page {
+  text-align: center;
+  margin: 4px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 12px;
+  font-size: 14px;
+}
+#sidebar #sidebar-menus .icat_menus_item .site-page i:first-child {
+  padding-left: 0;
+}
+#sidebar #sidebar-menus .icat_menus_item .site-page > .icat-essay {
+  font-weight: 500;
+}
+#sidebar #sidebar-menus .icat_menus_item .site-page span {
+  margin-top: -8px;
 }
 #vcomment {
   font-size: 1.1em;
