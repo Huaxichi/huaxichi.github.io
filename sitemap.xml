@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://huaxichi.top/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/404.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/categories</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/tags</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/music</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/essay</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/about</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/comments</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/img/rewardWechat.jpg</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/tags/Hexo</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/tags/%E6%95%99%E7%A8%8B</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/archives/2025/01</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/resources</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/1ac9df6e</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/categories/博客搭建教程</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://huaxichi.top/archives</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-02-22</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>
